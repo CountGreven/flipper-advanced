@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Flipper Advanced Flasher</title>
+<style>
+  :root { --bg:#0e1013; --card:#161a1f; --fg:#e8eaed; --muted:#9aa4af; --accent:#ff8200; --line:#252b33; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+    font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  .wrap { max-width:720px; margin:0 auto; padding:48px 20px 64px; }
+  h1 { font-size:30px; margin:0 0 4px; letter-spacing:-0.5px; }
+  h1 span { color:var(--accent); }
+  .sub { color:var(--muted); margin:0 0 28px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:24px; margin:18px 0; }
+  .flash { text-align:center; }
+  esp-web-install-button { --esp-tools-button-color:#0e1013; --esp-tools-button-text-color:#0e1013; }
+  .btn { display:inline-block; background:var(--accent); color:#0e1013; font-weight:700; font-size:16px;
+    border:0; border-radius:10px; padding:13px 26px; cursor:pointer; }
+  .btn:hover { filter:brightness(1.07); }
+  ol { padding-left:20px; } li { margin:6px 0; }
+  code { background:#0b0d10; border:1px solid var(--line); border-radius:5px; padding:1px 6px; color:#ffb765; }
+  .muted { color:var(--muted); font-size:13px; }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+  .row { display:flex; gap:14px; flex-wrap:wrap; margin-top:10px; }
+  .pill { border:1px solid var(--line); border-radius:999px; padding:5px 12px; color:var(--muted); font-size:13px; }
+  .warn { color:#ffb765; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Flipper <span>Advanced</span></h1>
+  <p class="sub">Full-colour ESP32-S3 Flipper firmware for the LilyGo T-Embed CC1101. Flash it straight from your browser.</p>
+
+  <div class="card flash">
+    <esp-web-install-button manifest="./manifest.json">
+      <button class="btn" slot="activate">Flash Flipper Advanced</button>
+      <span slot="unsupported" class="warn">Your browser can't flash over USB. Use desktop Chrome or Edge.</span>
+      <span slot="not-allowed" class="warn">USB access was blocked. Reload and allow the serial port.</span>
+    </esp-web-install-button>
+    <p class="muted" style="margin-top:14px">Version 2.0.0 &middot; ESP32-S3 &middot; 16&nbsp;MB flash</p>
+    <div class="row" style="justify-content:center">
+      <span class="pill">Chrome / Edge desktop</span>
+      <span class="pill">WebSerial</span>
+      <span class="pill">No install</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <strong>How to flash</strong>
+    <ol>
+      <li>Connect the T-Embed to this computer with a USB-C cable.</li>
+      <li>Click <em>Flash Flipper Advanced</em> and pick the device's serial port (ESP32-S3 / USB-Serial-JTAG).</li>
+      <li>Let it write and verify, then the device reboots into the new firmware.</li>
+    </ol>
+    <p class="muted">Already running Flipper Advanced? You can also update over WiFi from <em>Settings &rarr; WiFi &rarr; Web-Filesystem / Update</em>, no cable needed.</p>
+  </div>
+
+  <div class="card">
+    <strong>Open source</strong>
+    <p class="muted">Flipper Advanced is GPLv3, built on Sor3nt's Flipper-Zero-ESP32-Port and the upstream Flipper Zero firmware.
+    The source repository is being prepared for public release; corresponding source is available on request in the meantime.</p>
+  </div>
+</div>
+<script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+</body>
+</html>

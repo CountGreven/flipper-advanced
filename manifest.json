@@ -1,0 +1,17 @@
+{
+  "name": "Flipper Advanced",
+  "version": "2.0.0",
+  "home_assistant_domain": "",
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "path": "firmware/bootloader.bin", "offset": 0 },
+        { "path": "firmware/partition-table.bin", "offset": 32768 },
+        { "path": "firmware/furi_esp32.bin", "offset": 65536 },
+        { "path": "firmware/ota_data_initial.bin", "offset": 12517376 }
+      ]
+    }
+  ]
+}
