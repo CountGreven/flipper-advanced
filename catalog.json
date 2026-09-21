@@ -1,0 +1,285 @@
+{
+  "schema": 1,
+  "base_url": "https://countgreven.github.io/flipper-advanced/",
+  "apps": [
+    {
+      "id": "asteroids",
+      "name": "Asteroids",
+      "category": "Games",
+      "version": "1.0",
+      "fap": "apps/asteroids.fap",
+      "sha256": "cef2a4ec69e40cc75d19943ce49cbc35fb212f2322c0919ccfdf8987924a39b3",
+      "description": ""
+    },
+    {
+      "id": "blackjack",
+      "name": "Blackjack",
+      "category": "Games",
+      "version": "1.0",
+      "fap": "apps/blackjack.fap",
+      "sha256": "264ff5e1794c3be018d013bb9dc0495c71dd99ac4f59179284cd20a105218d20",
+      "description": ""
+    },
+    {
+      "id": "blackjack_split",
+      "name": "Blackjack Split",
+      "category": "Games",
+      "version": "1.0",
+      "fap": "apps/blackjack_split.fap",
+      "sha256": "b8c9b60f40242e3f761d5ca7f2b819c022616fe829ebfa4c5ed649f52fe1ee77",
+      "description": ""
+    },
+    {
+      "id": "flip_wifi",
+      "name": "FlipWiFi",
+      "category": "GPIO",
+      "version": "1.6.3",
+      "fap": "apps/flip_wifi.fap",
+      "sha256": "e6da4215bd8faa3940d7b3a606be7d9ca714dac7350d8d240638c72523766b14",
+      "description": "FlipperHTTP companion app."
+    },
+    {
+      "id": "flipagotchi",
+      "name": "Flipagotchi",
+      "category": "GPIO",
+      "version": "2.1.1",
+      "fap": "apps/flipagotchi.fap",
+      "sha256": "9f0cbf01b831e9076156a6cbf79974e492946fbc8243aa24478d179978a70dab",
+      "description": ""
+    },
+    {
+      "id": "flipbip",
+      "name": "FlipBIP Crypto Wallet",
+      "category": "Tools",
+      "version": "1.18",
+      "fap": "apps/flipbip.fap",
+      "sha256": "13ce26a9874886cbd3fa7095f965df136e9b771f101834b0728a18263920413e",
+      "description": "Crypto wallet for Flipper"
+    },
+    {
+      "id": "flipper_xremote",
+      "name": "XRemote",
+      "category": "Infrared",
+      "version": "1.4",
+      "fap": "apps/flipper_xremote.fap",
+      "sha256": "353dd6a5bbe25329482ebd3314eea0c01456a0c4ddaff15fb9e494959c725581",
+      "description": "Advanced infrared remote application"
+    },
+    {
+      "id": "fmf_to_sub",
+      "name": "Music to Sub-GHz Radio",
+      "category": "Sub-GHz",
+      "version": "1.2",
+      "fap": "apps/fmf_to_sub.fap",
+      "sha256": "da460a6b1b2f5ad5f68f789b9676a02e7f52abd75c004b8e4371438ee11e5e7d",
+      "description": "Converts Flipper music files (.FMF and .TXT) into Sub-GHz files (.SUB)."
+    },
+    {
+      "id": "game15",
+      "name": "Game 15",
+      "category": "Games",
+      "version": "1.0",
+      "fap": "apps/game15.fap",
+      "sha256": "cf62e846b587e6d723b724fb399da6dae85e789aff92e6ceeed600133c406221",
+      "description": ""
+    },
+    {
+      "id": "genie_record",
+      "name": "Genie Door Recorder",
+      "category": "Sub-GHz",
+      "version": "3.1",
+      "fap": "apps/genie_record.fap",
+      "sha256": "78bb804f88ee7e4f87945a1d4d82f3b9e148c4cd469523c079fc13dc918ac19e",
+      "description": "This application extracts the codes from a Genie garage door remote into a .GNE file.  It also plays back a .GNE file to a Genie garage door opener."
+    },
+    {
+      "id": "malveke_gb_photo",
+      "name": "GAME BOY PHOTO MALVEKE",
+      "category": "GPIO",
+      "version": "1.0",
+      "fap": "apps/malveke_gb_photo.fap",
+      "sha256": "b755e68bf1beaa4ae5b7d562f7fcda15af017ec9e8fe7ccf6cee207ca0d6450d",
+      "description": "Game Boy Camera save RAM photo to BMP from the Flipper Zero."
+    },
+    {
+      "id": "metroflip",
+      "name": "Metroflip",
+      "category": "NFC",
+      "version": "2.0",
+      "fap": "apps/metroflip.fap",
+      "sha256": "3d5a3caee7ac2922f33436370d3f8641805920c09f9b9eaffbd73d84279304be",
+      "description": "Read public transport cards from around the world"
+    },
+    {
+      "id": "mfkey",
+      "name": "MFKey",
+      "category": "NFC",
+      "version": "4.1",
+      "fap": "apps/mfkey.fap",
+      "sha256": "457f3190045fbb9b6cc07ef5eaeb0f83a2bae93666b0d2a3ba4016131c7f0fd3",
+      "description": "MIFARE Classic key recovery tool"
+    },
+    {
+      "id": "mifare_fuzzer",
+      "name": "Mifare Fuzzer",
+      "category": "NFC",
+      "version": "1.5",
+      "fap": "apps/mifare_fuzzer.fap",
+      "sha256": "6bb941d2893581b81738407ba1a447e4c66f4202da469800d7db69dac54f4517",
+      "description": "App emulates Mifare Classic cards with various UIDs to check how reader reacts on them"
+    },
+    {
+      "id": "nfc_magic",
+      "name": "NFC Magic",
+      "category": "NFC",
+      "version": "2.0",
+      "fap": "apps/nfc_magic.fap",
+      "sha256": "1237988daf3e11c1f3f097045ced3a23c1a02e05f6e05abf43367b74ecf61bdf",
+      "description": "Application for writing to NFC tags with modifiable sector 0"
+    },
+    {
+      "id": "nfc_rfid_detector",
+      "name": "RFID detector",
+      "category": "Tools",
+      "version": "1.4",
+      "fap": "apps/nfc_rfid_detector.fap",
+      "sha256": "a207050f684a70fe698497a9c65ea5d5973b0f6ebad9b274ab18a18c2ea6afec",
+      "description": "Identify the reader type: NFC (13 MHz) and/or RFID (125 KHz)."
+    },
+    {
+      "id": "radar_scanner",
+      "name": "[RCWL0516] Radar Scan",
+      "category": "GPIO",
+      "version": "2.0",
+      "fap": "apps/radar_scanner.fap",
+      "sha256": "48674278bf1b756ffba87d5046f80fff3d2f0536083f9b85570176707def2e7f",
+      "description": "Detects the movement of living things using radar"
+    },
+    {
+      "id": "reverse_shell",
+      "name": "Reverse Shell",
+      "category": "Tools",
+      "version": "1.0",
+      "fap": "apps/reverse_shell.fap",
+      "sha256": "747317309880d37e6731b16de9bfd44e4e82dd97a5711da10d04913aa5e3da8c",
+      "description": "WiFi STA + TCP dial-out reverse shell (on-device cmd loop). Authorized testing only."
+    },
+    {
+      "id": "rf_hunter",
+      "name": "RF Hunter",
+      "category": "Tools",
+      "version": "1.0",
+      "fap": "apps/rf_hunter.fap",
+      "sha256": "90b51cea1d60559f12b22fa89cf4f2ac98fb3adb5d9b08482f8edd734ed86d80",
+      "description": "Sub-GHz hidden-transmitter field-strength hunter for finding bugs, wireless cameras and trackers."
+    },
+    {
+      "id": "rfid2_reader",
+      "name": "RFID2 Reader",
+      "category": "NFC",
+      "version": "1.0",
+      "fap": "apps/rfid2_reader.fap",
+      "sha256": "0bcaebad7ab6d067c758ae7106be17983188de289788d454b0b9b10d68cd0dc5",
+      "description": "Read 13.56MHz card UIDs via the M5Stack Unit RFID2 (WS1850S, I2C)"
+    },
+    {
+      "id": "rock_paper_scissors",
+      "name": "Rock Paper Scissors",
+      "category": "Games",
+      "version": "1.5",
+      "fap": "apps/rock_paper_scissors.fap",
+      "sha256": "f28d5887202f3af903fae280ddcb546912b8f396faccefff92809616f2390a69",
+      "description": "Play the rock-paper-scissors game with your friends using the Flipper Zero Sub-GHz radio!"
+    },
+    {
+      "id": "roulette",
+      "name": "Roulette",
+      "category": "Games",
+      "version": "1.0",
+      "fap": "apps/roulette.fap",
+      "sha256": "8fbddf3bc443817cf44420d78af150f922261b16a2c5381726622df36794faa0",
+      "description": "Spin an American roulette wheel (0, 00, 1-36) with an animated ball and sound."
+    },
+    {
+      "id": "snake20",
+      "name": "Snake 2.0",
+      "category": "Games",
+      "version": "2.3",
+      "fap": "apps/snake20.fap",
+      "sha256": "16aa9e5b17f8209dd7fcdc77652e4a3ed2598b6d12194d1a743cf07ae41d57d9",
+      "description": "Advanced Snake Game (Remake of original Snake)"
+    },
+    {
+      "id": "t_embed_snake",
+      "name": "Snake",
+      "category": "Games",
+      "version": "1.0",
+      "fap": "apps/t_embed_snake.fap",
+      "sha256": "9f567fc9072f78205d95367afab7e6edc6b1cc4fc74b38efeb5c728eb155f4cd",
+      "description": ""
+    },
+    {
+      "id": "tetris",
+      "name": "Tetris",
+      "category": "Games",
+      "version": "1.0",
+      "fap": "apps/tetris.fap",
+      "sha256": "5f010cb4f245914fac80bb831003b9ec4b00f593a81746882704ae8794b2cb70",
+      "description": ""
+    },
+    {
+      "id": "texas_holdem",
+      "name": "Texas Holdem",
+      "category": "Games",
+      "version": "1.0",
+      "fap": "apps/texas_holdem.fap",
+      "sha256": "497bcdcd049c1c033529d5837c4476c2d8f0ca8f37891971301dc2fd7cd83a04",
+      "description": ""
+    },
+    {
+      "id": "usb_hid_autofire",
+      "name": "USB HID Autofire",
+      "category": "USB",
+      "version": "0.7.1",
+      "fap": "apps/usb_hid_autofire.fap",
+      "sha256": "06441e197a46a514b3e7b558aaba8abf4ec461599575c933b38832c562cc1821",
+      "description": "This is a simple Flipper Zero application to send left-clicks as a USB HID device."
+    },
+    {
+      "id": "waterfall_demo",
+      "name": "Waterfall Demo",
+      "category": "Tools",
+      "version": "1.0",
+      "fap": "apps/waterfall_demo.fap",
+      "sha256": "ea2ca2ff4411c67d8543fed7fb735e861a6830423db38fb593c6b5842f31e8fc",
+      "description": "Full-color spectrum waterfall rendered from mock data, to preview the visualization."
+    },
+    {
+      "id": "weather_station",
+      "name": "Weather Station",
+      "category": "Sub-GHz",
+      "version": "2.0",
+      "fap": "apps/weather_station.fap",
+      "sha256": "187f1dadbf29644afc4a43641361d3eae430ce2abd0792451615e762bba7e745",
+      "description": "Receive weather data from a wide range of supported Sub-1GHz remote sensor"
+    },
+    {
+      "id": "wire_tester",
+      "name": "[GPIO] Wire Tester",
+      "category": "GPIO",
+      "version": "1.0",
+      "fap": "apps/wire_tester.fap",
+      "sha256": "890f6b3e9e0ba6e8435ce99a384f1ebd0717602fc3c88db0c712e8ce86d65352",
+      "description": "Beeps if a wire is continuous"
+    },
+    {
+      "id": "wmbuster",
+      "name": "wM-Buster",
+      "category": "Sub-GHz",
+      "version": "1.0",
+      "fap": "apps/wmbuster.fap",
+      "sha256": "af6a00cb2357c6faaa841795507fefd44b24f5156fccd9bd72d6feb78854819e",
+      "description": "EU wM-Bus listener: T1/C1/T+C/S1, AES-128 mode 5, OMS DIF/VIF, manufacturer drivers. RX-only."
+    }
+  ]
+}
